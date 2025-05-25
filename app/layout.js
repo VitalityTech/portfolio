@@ -12,14 +12,14 @@ const ovo = OvoFont({
 });
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Vitaliy Hladchenko",
   description: "",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth"> 
-      <body className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden`}>
+      <body className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden dark:bg-dark-theme dark:text-white`}>
         {children}
       </body>
     </html>

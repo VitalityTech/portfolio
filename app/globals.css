@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr))
 }
 
 @theme {
-  --color-light-hover: #fcf4ff;
-  --color-dark-hover: #2a004a;
+  --color-light-hover: #E8E8E8;
+  --color-dark-hover: #0F172A;
   --color-dark-theme: #11001f;
 
   --font-outfit: Outfit, sans-serif;
@@ -17,4 +19,9 @@
 
 }
 
+/* #11001f */
+/* #121212 */
+/* fcf4ff */
+/* #e0e0e0 */
 
+/* dark-hover-effect #0F172A */
